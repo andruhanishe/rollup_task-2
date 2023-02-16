@@ -1,5 +1,5 @@
 {
-  "name": "webpack, rollup",
+  "name": "task2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,16 +8,13 @@
     "build": "rollup -c",
     "start": "rollup -c -w"
   },
-  "keywords": [
-    "webpack",
-    "rollup"
-  ],
-  "author": "Andrey Nazarenko",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/preset-env": "^7.20.2",
     "@rollup/plugin-babel": "^6.0.3",
-    "@rollup/plugin-image": "^3.0.2",
+    "rollup-plugin-img": "^1.1.0",
     "rollup-plugin-livereload": "^2.0.5",
     "rollup-plugin-serve": "^2.0.2",
     "rollup-plugin-styles": "^4.0.0"
